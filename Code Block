@@ -3,6 +3,7 @@
 I made this code!
 
 ### HTML
+```html
 <!DOCTYPE html>
 <html>
    <head>
@@ -25,3 +26,4 @@ I made this code!
        </div>
    </body>
 </html>
+```

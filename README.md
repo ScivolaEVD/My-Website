@@ -9,3 +9,4 @@ Use these links to get around website.
 * [Hobbies](./Hobbies.md)
 * [Code Block](./Code-Block.md)
 * [Cool Pictures](./Cool-Pictures.md)
+* [Favorite Websites](./Favorite-Website.md)

@@ -2,7 +2,7 @@
 
 ## Python Code
 
-```python
+``` python
 import random
 from turtle import Turtle
 

@@ -8,4 +8,3 @@ Use these links to get around website.
 
 * [Hobbies](./Hobbies.md)
 
-* [Code Smaple](./Code Sample.md)

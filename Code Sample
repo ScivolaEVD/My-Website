@@ -1,6 +1,6 @@
-# Code Sample
+#Code Sample
 
-## Python Code
+##Python Code
 python
 import random
 from turtle import Turtle

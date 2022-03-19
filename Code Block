@@ -1,29 +1,33 @@
-# Code Sample
+# Code Block
 
-I made this code!
+# Python Code
+```python
+python
 
-### HTML
-```html
-<!DOCTYPE html>
-<html>
-   <head>
-       <meta charset="UTF-8">
-       <title>Fizz Buzz</title>
+import random
+from turtle import Turtle
 
-       <script>
-           function fizzbuzz() {
-           var display = document.getElementById('display');
-           var displayHTML = "";
-           for (i = 0; i < 100; i++) {
-           displayHTML += "<p>" + i + "</p>";
-           }
-           display.innerHTML = displayHTML;
-           }
-       </script>
-   </head>
-   <body onload="fizzbuzz()">
-       <div id="display">
-       </div>
-   </body>
-</html>
+def recursive_circles(turtle, angle, quantity, delta, radius):
+    colors = ["red", "orange", "brown", "green", "blue", "purple"]
+    color = random.choice(colors)
+    turtle.color(color)
+    turtle.right(angle)
+    turtle.forward(delta)
+    unit_angle = 360.0/quantity
+    for x in range(quantity):
+        turtle.circle(radius)
+        turtle.left(unit_angle)
+    radius = radius - delta
+    if (radius > 7):
+        recursive_circles2(turtle, angle, quantity, delta, radius)
+
+def main():
+    ANIMATION_SPEED = 0
+    mikey = Turtle()
+    mikey.speed(ANIMATION_SPEED)
+    recursive_circles(mikey, 20, 20, 5, 100)
+
+main()
 ```
+
+[return to home page](./README.md)
